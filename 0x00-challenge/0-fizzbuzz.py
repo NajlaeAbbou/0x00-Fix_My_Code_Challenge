@@ -17,11 +17,7 @@ def fizzbuzz(n):
 
     tmp_result = []
     for i in range(1, n + 1):
-<<<<<<< HEAD:0x00-challenge/0-fizzbuzz.py
         if (i % 3) == 0 and i != 15:
-=======
-        if (i % 3) == 0 or i == 15:
->>>>>>> 02bbce1ae795ff6730e3ed86e9a8777e8b965204:0-fizzbuzz.py
             tmp_result.append("Fizz")
         elif (i % 3) == 0 and (i % 5) == 0:
             tmp_result.append("FizzBuzz")
